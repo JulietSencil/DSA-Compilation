@@ -1,0 +1,13 @@
+package string_array;
+
+public class Simple_String_Array {
+
+	public static void main(String[] args) {
+		String names[] = {"Jenny", "Juliet", "Jesan", "Jemarie", "Jheverly"};
+	//INDEX                  0         1        2          3          4	
+ System.out.println(names.length);
+ System.out.println(names[3]);
+ 
+	}
+
+}
