@@ -1,0 +1,25 @@
+package scenario;
+import java.util.*;
+public class Scenario {
+
+	    public static void main(String[] args) {
+	        Scanner scanner = new Scanner(System.in);
+
+	        
+	        double ricePrice= 45;
+	        System.out.print("*******************************\n ");
+	        System.out.println("RICE 4 SALE ");
+	        System.out.print("*******************************\n ");
+	        System.out.print("How many kilograms of rice would you like to buy? ");
+	        double riceQuantity = scanner.nextDouble();
+
+	       
+	        double totalCost = ricePrice * riceQuantity;
+
+	        System.out.print("_______________________________________________________________\n ");
+	        System.out.println("    The total cost for " + riceQuantity + " kilograms of rice is = " + totalCost);
+	        System.out.print("________________________________________________________________ ");
+	        
+	        scanner.close();
+	    }
+	}
